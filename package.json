@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.j",
+    "watch": "nodemon ./app.js localhost 3000",
     "lint": "eslint ./"
   },
   "repository": {
@@ -25,6 +26,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "eslint": "^6.8.0"
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.2"
   }
 }
