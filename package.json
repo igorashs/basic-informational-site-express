@@ -1,0 +1,30 @@
+{
+  "name": "basic-informational-site-express",
+  "version": "1.0.0",
+  "description": "Basic Info Site with Express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.j",
+    "lint": "eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorashs/basic-informational-site-express.git"
+  },
+  "keywords": [
+    "Express",
+    "Node.js"
+  ],
+  "author": "Igorashs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/igorashs/basic-informational-site-express/issues"
+  },
+  "homepage": "https://github.com/igorashs/basic-informational-site-express#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
