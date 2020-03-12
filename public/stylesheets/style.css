@@ -1,0 +1,126 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul,
+ol {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+/* Remove list styles on ul and ol elements */
+ul,
+ol {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* app styles */
+
+body {
+  background-color: #393e46;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #eeeeee;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1px;
+  height: 100px;
+  align-self: stretch;
+  background-color: #40454e;
+}
+
+nav a {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #eeeeee;
+  font-size: 24px;
+  text-decoration: none;
+  background-color: #222831;
+}
+
+nav a:hover {
+  background-color: #00adb5;
+}
+
+/* will change the link from 404 page */
+a {
+  color: #ff9b9b;
+}
+
+h1 {
+  padding-top: 20px;
+  font-size: 32px;
+}
+
+.current-page {
+  background-color: #1b2028;
+}
