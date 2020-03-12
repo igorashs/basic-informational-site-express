@@ -1,6 +1,6 @@
 # Basic informational site with Express
 
-> - [Live Demo Repl]() **SOON** :shipit:
+> - [Live Demo Repl](https://repl.it/@igorashs/basic-informational-site-express) :shipit:
 
 ## Getting Started
 
