@@ -9,6 +9,7 @@
 ```bash
 git clone https://github.com/igorashs/basic-informational-site-express.git
 cd basic-informational-site-express
+npm install
 npm run start
 ```
 
