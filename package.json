@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/igorashs/basic-informational-site-express#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
